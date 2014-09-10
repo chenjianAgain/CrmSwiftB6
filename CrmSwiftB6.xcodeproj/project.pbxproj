@@ -7,11 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C05ABEF19BA9D8E00584860 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABEE19BA9D8E00584860 /* MBProgressHUD.m */; };
+		7C05ABF219BAA06800584860 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABF119BAA06800584860 /* MainTabBarController.swift */; };
+		7C05ABF819BAA3E800584860 /* ProductsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABF719BAA3E800584860 /* ProductsCollectionViewController.swift */; };
+		7C05ABFA19BAB7EF00584860 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABF919BAB7EF00584860 /* ProductCell.swift */; };
+		7C05ABFC19BABB1100584860 /* ProductStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABFB19BABB1100584860 /* ProductStore.swift */; };
+		7C05ABFE19BABB2600584860 /* product.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C05ABFD19BABB2600584860 /* product.plist */; };
+		7C05AC0019BABBFE00584860 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABFF19BABBFE00584860 /* Product.swift */; };
 		7CC2136319ADBD080067F75D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2136219ADBD080067F75D /* AppDelegate.swift */; };
 		7CC2136519ADBD080067F75D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2136419ADBD080067F75D /* ViewController.swift */; };
 		7CC2136819ADBD080067F75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2136619ADBD080067F75D /* Main.storyboard */; };
-		7CC2136A19ADBD080067F75D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2136919ADBD080067F75D /* Images.xcassets */; };
 		7CC2137619ADBD080067F75D /* CrmSwiftB6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2137519ADBD080067F75D /* CrmSwiftB6Tests.swift */; };
+		7CC2138219ADBD460067F75D /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2138119ADBD460067F75D /* NSObject+Test.m */; };
+		7CC213B219ADBDC10067F75D /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2138919ADBDC10067F75D /* Business.m */; };
+		7CC213B319ADBDC10067F75D /* BusinessList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2138B19ADBDC10067F75D /* BusinessList.m */; };
+		7CC213B419ADBDC10067F75D /* ContactRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2138D19ADBDC10067F75D /* ContactRecord.m */; };
+		7CC213B519ADBDC10067F75D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2138F19ADBDC10067F75D /* Customer.m */; };
+		7CC213B619ADBDC10067F75D /* ManagerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139119ADBDC10067F75D /* ManagerUser.m */; };
+		7CC213B719ADBDC10067F75D /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139319ADBDC10067F75D /* Product.m */; };
+		7CC213B819ADBDC10067F75D /* ProductDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139519ADBDC10067F75D /* ProductDetail.m */; };
+		7CC213B919ADBDC10067F75D /* ZDLocalDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139719ADBDC10067F75D /* ZDLocalDB.m */; };
+		7CC213BA19ADBDC10067F75D /* ZDModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139819ADBDC10067F75D /* ZDModel.xcdatamodeld */; };
+		7CC213BB19ADBDC10067F75D /* ZDWebService+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139C19ADBDC10067F75D /* ZDWebService+URL.m */; };
+		7CC213BC19ADBDC10067F75D /* ZDWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2139E19ADBDC10067F75D /* ZDWebService.m */; };
+		7CC213BD19ADBDC10067F75D /* ZDBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213A119ADBDC10067F75D /* ZDBusiness.m */; };
+		7CC213BE19ADBDC10067F75D /* ZDBusinessList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213A319ADBDC10067F75D /* ZDBusinessList.m */; };
+		7CC213BF19ADBDC10067F75D /* ZDCachePathUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213A519ADBDC10067F75D /* ZDCachePathUtility.m */; };
+		7CC213C019ADBDC10067F75D /* ZDContactRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213A719ADBDC10067F75D /* ZDContactRecord.m */; };
+		7CC213C119ADBDC10067F75D /* ZDCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213A919ADBDC10067F75D /* ZDCustomer.m */; };
+		7CC213C219ADBDC10067F75D /* ZDManagerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213AB19ADBDC10067F75D /* ZDManagerUser.m */; };
+		7CC213C319ADBDC10067F75D /* ZDModeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213AD19ADBDC10067F75D /* ZDModeClient.m */; };
+		7CC213C419ADBDC10067F75D /* ZDProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213AF19ADBDC10067F75D /* ZDProduct.m */; };
+		7CC213C519ADBDC10067F75D /* ZDProductDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213B119ADBDC10067F75D /* ZDProductDetail.m */; };
+		7CC213C919ADBE3D0067F75D /* NSString+Tony.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213C819ADBE3D0067F75D /* NSString+Tony.m */; };
+		7CC213CB19ADBE970067F75D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC213CA19ADBE970067F75D /* Images.xcassets */; };
+		7CC213CD19ADBECD0067F75D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC213CC19ADBECD0067F75D /* Main_iPhone.storyboard */; };
+		7CC213D019ADBFB30067F75D /* ZDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC213CF19ADBFB30067F75D /* ZDLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +56,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C05ABED19BA9D8E00584860 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7C05ABEE19BA9D8E00584860 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7C05ABF119BAA06800584860 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7C05ABF719BAA3E800584860 /* ProductsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewController.swift; sourceTree = "<group>"; };
+		7C05ABF919BAB7EF00584860 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		7C05ABFB19BABB1100584860 /* ProductStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductStore.swift; sourceTree = "<group>"; };
+		7C05ABFD19BABB2600584860 /* product.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product.plist; sourceTree = "<group>"; };
+		7C05ABFF19BABBFE00584860 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		7CC2135D19ADBD080067F75D /* CrmSwiftB6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrmSwiftB6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC2136119ADBD080067F75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC2136219ADBD080067F75D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CC2136419ADBD080067F75D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CC2136719ADBD080067F75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CC2136919ADBD080067F75D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CC2136F19ADBD080067F75D /* CrmSwiftB6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrmSwiftB6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC2137419ADBD080067F75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC2137519ADBD080067F75D /* CrmSwiftB6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrmSwiftB6Tests.swift; sourceTree = "<group>"; };
+		7CC2137F19ADBD450067F75D /* CrmSwiftB6-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrmSwiftB6-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CC2138019ADBD460067F75D /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		7CC2138119ADBD460067F75D /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
+		7CC2138819ADBDC10067F75D /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		7CC2138919ADBDC10067F75D /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		7CC2138A19ADBDC10067F75D /* BusinessList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessList.h; sourceTree = "<group>"; };
+		7CC2138B19ADBDC10067F75D /* BusinessList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessList.m; sourceTree = "<group>"; };
+		7CC2138C19ADBDC10067F75D /* ContactRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactRecord.h; sourceTree = "<group>"; };
+		7CC2138D19ADBDC10067F75D /* ContactRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactRecord.m; sourceTree = "<group>"; };
+		7CC2138E19ADBDC10067F75D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		7CC2138F19ADBDC10067F75D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		7CC2139019ADBDC10067F75D /* ManagerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerUser.h; sourceTree = "<group>"; };
+		7CC2139119ADBDC10067F75D /* ManagerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerUser.m; sourceTree = "<group>"; };
+		7CC2139219ADBDC10067F75D /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		7CC2139319ADBDC10067F75D /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		7CC2139419ADBDC10067F75D /* ProductDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetail.h; sourceTree = "<group>"; };
+		7CC2139519ADBDC10067F75D /* ProductDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetail.m; sourceTree = "<group>"; };
+		7CC2139619ADBDC10067F75D /* ZDLocalDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLocalDB.h; sourceTree = "<group>"; };
+		7CC2139719ADBDC10067F75D /* ZDLocalDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLocalDB.m; sourceTree = "<group>"; };
+		7CC2139919ADBDC10067F75D /* ZDModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZDModel.xcdatamodel; sourceTree = "<group>"; };
+		7CC2139B19ADBDC10067F75D /* ZDWebService+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZDWebService+URL.h"; sourceTree = "<group>"; };
+		7CC2139C19ADBDC10067F75D /* ZDWebService+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZDWebService+URL.m"; sourceTree = "<group>"; };
+		7CC2139D19ADBDC10067F75D /* ZDWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDWebService.h; sourceTree = "<group>"; };
+		7CC2139E19ADBDC10067F75D /* ZDWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDWebService.m; sourceTree = "<group>"; };
+		7CC213A019ADBDC10067F75D /* ZDBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBusiness.h; sourceTree = "<group>"; };
+		7CC213A119ADBDC10067F75D /* ZDBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBusiness.m; sourceTree = "<group>"; };
+		7CC213A219ADBDC10067F75D /* ZDBusinessList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBusinessList.h; sourceTree = "<group>"; };
+		7CC213A319ADBDC10067F75D /* ZDBusinessList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBusinessList.m; sourceTree = "<group>"; };
+		7CC213A419ADBDC10067F75D /* ZDCachePathUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCachePathUtility.h; sourceTree = "<group>"; };
+		7CC213A519ADBDC10067F75D /* ZDCachePathUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCachePathUtility.m; sourceTree = "<group>"; };
+		7CC213A619ADBDC10067F75D /* ZDContactRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDContactRecord.h; sourceTree = "<group>"; };
+		7CC213A719ADBDC10067F75D /* ZDContactRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDContactRecord.m; sourceTree = "<group>"; };
+		7CC213A819ADBDC10067F75D /* ZDCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCustomer.h; sourceTree = "<group>"; };
+		7CC213A919ADBDC10067F75D /* ZDCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCustomer.m; sourceTree = "<group>"; };
+		7CC213AA19ADBDC10067F75D /* ZDManagerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDManagerUser.h; sourceTree = "<group>"; };
+		7CC213AB19ADBDC10067F75D /* ZDManagerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDManagerUser.m; sourceTree = "<group>"; };
+		7CC213AC19ADBDC10067F75D /* ZDModeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDModeClient.h; sourceTree = "<group>"; };
+		7CC213AD19ADBDC10067F75D /* ZDModeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDModeClient.m; sourceTree = "<group>"; };
+		7CC213AE19ADBDC10067F75D /* ZDProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDProduct.h; sourceTree = "<group>"; };
+		7CC213AF19ADBDC10067F75D /* ZDProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDProduct.m; sourceTree = "<group>"; };
+		7CC213B019ADBDC10067F75D /* ZDProductDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDProductDetail.h; sourceTree = "<group>"; };
+		7CC213B119ADBDC10067F75D /* ZDProductDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDProductDetail.m; sourceTree = "<group>"; };
+		7CC213C619ADBE140067F75D /* AllCustomerCategoryHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllCustomerCategoryHeaders.h; sourceTree = "<group>"; };
+		7CC213C719ADBE3D0067F75D /* NSString+Tony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tony.h"; sourceTree = "<group>"; };
+		7CC213C819ADBE3D0067F75D /* NSString+Tony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tony.m"; sourceTree = "<group>"; };
+		7CC213CA19ADBE970067F75D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CC213CC19ADBECD0067F75D /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7CC213CF19ADBFB30067F75D /* ZDLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +140,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C05ABEC19BA9D8E00584860 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7C05ABED19BA9D8E00584860 /* MBProgressHUD.h */,
+				7C05ABEE19BA9D8E00584860 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7C05ABF019BAA05000584860 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7C05ABF319BAA38900584860 /* Chance */,
+				7C05ABF419BAA38900584860 /* Customer */,
+				7C05ABF519BAA38900584860 /* Product */,
+				7C05ABF619BAA38900584860 /* Setting */,
+				7C05ABF119BAA06800584860 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7C05ABF319BAA38900584860 /* Chance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chance;
+			sourceTree = "<group>";
+		};
+		7C05ABF419BAA38900584860 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		7C05ABF519BAA38900584860 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				7C05ABF719BAA3E800584860 /* ProductsCollectionViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		7C05ABF619BAA38900584860 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		7CC2135419ADBD080067F75D = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +211,15 @@
 		7CC2135F19ADBD080067F75D /* CrmSwiftB6 */ = {
 			isa = PBXGroup;
 			children = (
+				7CC213CA19ADBE970067F75D /* Images.xcassets */,
+				7CC2138319ADBD7C0067F75D /* Models */,
+				7CC2138419ADBD7C0067F75D /* Stores */,
+				7CC2138519ADBD7C0067F75D /* ViewControllers */,
+				7CC2138619ADBD7C0067F75D /* Views */,
 				7CC2136219ADBD080067F75D /* AppDelegate.swift */,
 				7CC2136419ADBD080067F75D /* ViewController.swift */,
+				7CC213CC19ADBECD0067F75D /* Main_iPhone.storyboard */,
 				7CC2136619ADBD080067F75D /* Main.storyboard */,
-				7CC2136919ADBD080067F75D /* Images.xcassets */,
 				7CC2136019ADBD080067F75D /* Supporting Files */,
 			);
 			path = CrmSwiftB6;
@@ -87,7 +228,13 @@
 		7CC2136019ADBD080067F75D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7CC213C719ADBE3D0067F75D /* NSString+Tony.h */,
+				7CC213C819ADBE3D0067F75D /* NSString+Tony.m */,
+				7CC213C619ADBE140067F75D /* AllCustomerCategoryHeaders.h */,
 				7CC2136119ADBD080067F75D /* Info.plist */,
+				7CC2138019ADBD460067F75D /* NSObject+Test.h */,
+				7CC2138119ADBD460067F75D /* NSObject+Test.m */,
+				7CC2137F19ADBD450067F75D /* CrmSwiftB6-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -107,6 +254,112 @@
 				7CC2137419ADBD080067F75D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CC2138319ADBD7C0067F75D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CC2138719ADBDC10067F75D /* localDB */,
+				7CC2139A19ADBDC10067F75D /* webservice */,
+				7CC2139F19ADBDC10067F75D /* ZDCommonMode */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CC2138419ADBD7C0067F75D /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				7C05ABFF19BABBFE00584860 /* Product.swift */,
+				7C05ABFB19BABB1100584860 /* ProductStore.swift */,
+				7C05ABFD19BABB2600584860 /* product.plist */,
+				7C05ABEC19BA9D8E00584860 /* MBProgressHUD */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		7CC2138519ADBD7C0067F75D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C05ABF019BAA05000584860 /* Main */,
+				7CC213CE19ADBF830067F75D /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7CC2138619ADBD7C0067F75D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C05ABF919BAB7EF00584860 /* ProductCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CC2138719ADBDC10067F75D /* localDB */ = {
+			isa = PBXGroup;
+			children = (
+				7CC2138819ADBDC10067F75D /* Business.h */,
+				7CC2138919ADBDC10067F75D /* Business.m */,
+				7CC2138A19ADBDC10067F75D /* BusinessList.h */,
+				7CC2138B19ADBDC10067F75D /* BusinessList.m */,
+				7CC2138C19ADBDC10067F75D /* ContactRecord.h */,
+				7CC2138D19ADBDC10067F75D /* ContactRecord.m */,
+				7CC2138E19ADBDC10067F75D /* Customer.h */,
+				7CC2138F19ADBDC10067F75D /* Customer.m */,
+				7CC2139019ADBDC10067F75D /* ManagerUser.h */,
+				7CC2139119ADBDC10067F75D /* ManagerUser.m */,
+				7CC2139219ADBDC10067F75D /* Product.h */,
+				7CC2139319ADBDC10067F75D /* Product.m */,
+				7CC2139419ADBDC10067F75D /* ProductDetail.h */,
+				7CC2139519ADBDC10067F75D /* ProductDetail.m */,
+				7CC2139619ADBDC10067F75D /* ZDLocalDB.h */,
+				7CC2139719ADBDC10067F75D /* ZDLocalDB.m */,
+				7CC2139819ADBDC10067F75D /* ZDModel.xcdatamodeld */,
+			);
+			path = localDB;
+			sourceTree = "<group>";
+		};
+		7CC2139A19ADBDC10067F75D /* webservice */ = {
+			isa = PBXGroup;
+			children = (
+				7CC2139B19ADBDC10067F75D /* ZDWebService+URL.h */,
+				7CC2139C19ADBDC10067F75D /* ZDWebService+URL.m */,
+				7CC2139D19ADBDC10067F75D /* ZDWebService.h */,
+				7CC2139E19ADBDC10067F75D /* ZDWebService.m */,
+			);
+			path = webservice;
+			sourceTree = "<group>";
+		};
+		7CC2139F19ADBDC10067F75D /* ZDCommonMode */ = {
+			isa = PBXGroup;
+			children = (
+				7CC213A019ADBDC10067F75D /* ZDBusiness.h */,
+				7CC213A119ADBDC10067F75D /* ZDBusiness.m */,
+				7CC213A219ADBDC10067F75D /* ZDBusinessList.h */,
+				7CC213A319ADBDC10067F75D /* ZDBusinessList.m */,
+				7CC213A419ADBDC10067F75D /* ZDCachePathUtility.h */,
+				7CC213A519ADBDC10067F75D /* ZDCachePathUtility.m */,
+				7CC213A619ADBDC10067F75D /* ZDContactRecord.h */,
+				7CC213A719ADBDC10067F75D /* ZDContactRecord.m */,
+				7CC213A819ADBDC10067F75D /* ZDCustomer.h */,
+				7CC213A919ADBDC10067F75D /* ZDCustomer.m */,
+				7CC213AA19ADBDC10067F75D /* ZDManagerUser.h */,
+				7CC213AB19ADBDC10067F75D /* ZDManagerUser.m */,
+				7CC213AC19ADBDC10067F75D /* ZDModeClient.h */,
+				7CC213AD19ADBDC10067F75D /* ZDModeClient.m */,
+				7CC213AE19ADBDC10067F75D /* ZDProduct.h */,
+				7CC213AF19ADBDC10067F75D /* ZDProduct.m */,
+				7CC213B019ADBDC10067F75D /* ZDProductDetail.h */,
+				7CC213B119ADBDC10067F75D /* ZDProductDetail.m */,
+			);
+			path = ZDCommonMode;
+			sourceTree = "<group>";
+		};
+		7CC213CE19ADBF830067F75D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7CC213CF19ADBFB30067F75D /* ZDLoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +442,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C05ABFE19BABB2600584860 /* product.plist in Resources */,
 				7CC2136819ADBD080067F75D /* Main.storyboard in Resources */,
-				7CC2136A19ADBD080067F75D /* Images.xcassets in Resources */,
+				7CC213CB19ADBE970067F75D /* Images.xcassets in Resources */,
+				7CC213CD19ADBECD0067F75D /* Main_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +463,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC213B919ADBDC10067F75D /* ZDLocalDB.m in Sources */,
+				7CC213D019ADBFB30067F75D /* ZDLoginViewController.swift in Sources */,
+				7CC213BE19ADBDC10067F75D /* ZDBusinessList.m in Sources */,
+				7CC213C519ADBDC10067F75D /* ZDProductDetail.m in Sources */,
 				7CC2136519ADBD080067F75D /* ViewController.swift in Sources */,
+				7CC213B219ADBDC10067F75D /* Business.m in Sources */,
+				7CC213B619ADBDC10067F75D /* ManagerUser.m in Sources */,
+				7CC213C319ADBDC10067F75D /* ZDModeClient.m in Sources */,
+				7CC213C919ADBE3D0067F75D /* NSString+Tony.m in Sources */,
+				7C05ABEF19BA9D8E00584860 /* MBProgressHUD.m in Sources */,
+				7CC213BC19ADBDC10067F75D /* ZDWebService.m in Sources */,
+				7CC213BD19ADBDC10067F75D /* ZDBusiness.m in Sources */,
+				7CC213C019ADBDC10067F75D /* ZDContactRecord.m in Sources */,
+				7CC213B719ADBDC10067F75D /* Product.m in Sources */,
+				7CC2138219ADBD460067F75D /* NSObject+Test.m in Sources */,
+				7C05ABFC19BABB1100584860 /* ProductStore.swift in Sources */,
+				7CC213BB19ADBDC10067F75D /* ZDWebService+URL.m in Sources */,
+				7CC213B419ADBDC10067F75D /* ContactRecord.m in Sources */,
+				7C05ABFA19BAB7EF00584860 /* ProductCell.swift in Sources */,
+				7CC213BF19ADBDC10067F75D /* ZDCachePathUtility.m in Sources */,
+				7CC213BA19ADBDC10067F75D /* ZDModel.xcdatamodeld in Sources */,
+				7CC213C419ADBDC10067F75D /* ZDProduct.m in Sources */,
+				7C05ABF219BAA06800584860 /* MainTabBarController.swift in Sources */,
+				7CC213B319ADBDC10067F75D /* BusinessList.m in Sources */,
 				7CC2136319ADBD080067F75D /* AppDelegate.swift in Sources */,
+				7CC213B819ADBDC10067F75D /* ProductDetail.m in Sources */,
+				7C05AC0019BABBFE00584860 /* Product.swift in Sources */,
+				7C05ABF819BAA3E800584860 /* ProductsCollectionViewController.swift in Sources */,
+				7CC213C119ADBDC10067F75D /* ZDCustomer.m in Sources */,
+				7CC213C219ADBDC10067F75D /* ZDManagerUser.m in Sources */,
+				7CC213B519ADBDC10067F75D /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +611,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CrmSwiftB6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrmSwiftB6/CrmSwiftB6-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,9 +626,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CrmSwiftB6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrmSwiftB6/CrmSwiftB6-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,6 +688,7 @@
 				7CC2137B19ADBD080067F75D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CC2137C19ADBD080067F75D /* Build configuration list for PBXNativeTarget "CrmSwiftB6Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,8 +697,22 @@
 				7CC2137E19ADBD080067F75D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CC2139819ADBDC10067F75D /* ZDModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CC2139919ADBDC10067F75D /* ZDModel.xcdatamodel */,
+			);
+			currentVersion = 7CC2139919ADBDC10067F75D /* ZDModel.xcdatamodel */;
+			path = ZDModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7CC2135519ADBD080067F75D /* Project object */;
 }
