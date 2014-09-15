@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="guK-TN-hfS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="guK-TN-hfS">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
@@ -809,7 +810,7 @@
         <!--客户-->
         <scene sceneID="nYh-X3-ASc">
             <objects>
-                <tableViewController id="BcE-NZ-12n" customClass="ZDCustomerTableViewController" sceneMemberID="viewController">
+                <tableViewController id="BcE-NZ-12n" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="69" sectionHeaderHeight="22" sectionFooterHeight="22" id="hI5-du-ZEh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -830,6 +831,7 @@
                     <navigationItem key="navigationItem" title="客户" id="hrR-QG-5ed">
                         <barButtonItem key="rightBarButtonItem" image="ico_header_scan" id="2iD-1G-JSl"/>
                     </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="Gaj-uY-zfp" id="Hi3-Kx-TOe"/>
                         <segue destination="oRf-Kh-N4w" kind="push" identifier="Show List" id="YCH-ax-Mio"/>
@@ -1529,7 +1531,7 @@
         <!--产品-->
         <scene sceneID="Erv-SZ-4Zb">
             <objects>
-                <viewController id="Y38-3G-X2c" customClass="ProductsCollectionViewController" customModule="CrmSwiftB6" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Y38-3G-X2c" customClass="ProductsCollectionViewController" customModule="CrmSwiftB6" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xxx-Kd-dUE"/>
                         <viewControllerLayoutGuide type="bottom" id="F0C-Wc-mzQ"/>
@@ -1538,8 +1540,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Vxi-Lw-FhX">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Vxi-Lw-FhX">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jOH-4e-tu2">
                                     <size key="itemSize" width="70" height="100"/>
@@ -1581,8 +1583,15 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F0C-Wc-mzQ" firstAttribute="top" secondItem="Vxi-Lw-FhX" secondAttribute="bottom" id="Dyl-Hi-a1F"/>
+                            <constraint firstItem="Vxi-Lw-FhX" firstAttribute="leading" secondItem="kyh-EV-fCt" secondAttribute="leadingMargin" constant="-16" id="dwK-yZ-wlC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vxi-Lw-FhX" secondAttribute="trailing" constant="-16" id="m61-Ui-Gu0"/>
+                            <constraint firstItem="Vxi-Lw-FhX" firstAttribute="top" secondItem="Xxx-Kd-dUE" secondAttribute="bottom" id="xXc-GM-pmx"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="产品" id="TWV-9c-p0k"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5c8-2H-Ba9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1757,7 +1766,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6LS-on-Ovk" userLabel="View - Bottom">
-                                <rect key="frame" x="0.0" y="417" width="320" height="102"/>
+                                <rect key="frame" x="0.0" y="417" width="320" height="151"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="适用人群" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ib-pE-osp">
                                         <rect key="frame" x="28" y="18" width="60" height="18"/>
@@ -1792,6 +1801,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="证大岁悦" id="XKM-HL-ojz"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MXC-e8-Snx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="odT-bs-NSs">
