@@ -10,7 +10,7 @@ import UIKit
 
 class ProductsCollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    var products: Array<Product>? {
+    var products: Array<Dictionary<NSString, NSString>>? {
         return ProductStore.sharedStore.products
     }
    
@@ -19,8 +19,8 @@ class ProductsCollectionViewController: UIViewController, UICollectionViewDataSo
         
         var product = self.products![indexPath.row]
         
-        productCell.imageView.image = UIImage(named: product.icon)
-        productCell.label.text = product.name
+        productCell.imageView.image = UIImage(named: product["icon"]!)
+        productCell.label.text = product["name"]
         
         return productCell;
     }

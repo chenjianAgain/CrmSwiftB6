@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BF83E519C694B700933690 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF83E419C694B700933690 /* MyView.swift */; };
+		18BF83E719C694DC00933690 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF83E619C694DC00933690 /* MyButton.swift */; };
+		18BF83E919C695FE00933690 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF83E819C695FE00933690 /* ProductDetailViewController.swift */; };
 		7C05ABEF19BA9D8E00584860 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABEE19BA9D8E00584860 /* MBProgressHUD.m */; };
 		7C05ABF219BAA06800584860 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABF119BAA06800584860 /* MainTabBarController.swift */; };
 		7C05ABF819BAA3E800584860 /* ProductsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05ABF719BAA3E800584860 /* ProductsCollectionViewController.swift */; };
@@ -56,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BF83E419C694B700933690 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		18BF83E619C694DC00933690 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		18BF83E819C695FE00933690 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		7C05ABED19BA9D8E00584860 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7C05ABEE19BA9D8E00584860 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7C05ABF119BAA06800584860 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				7C05ABF719BAA3E800584860 /* ProductsCollectionViewController.swift */,
+				18BF83E819C695FE00933690 /* ProductDetailViewController.swift */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -289,7 +296,9 @@
 		7CC2138619ADBD7C0067F75D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18BF83E419C694B700933690 /* MyView.swift */,
 				7C05ABF919BAB7EF00584860 /* ProductCell.swift */,
+				18BF83E619C694DC00933690 /* MyButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -471,6 +480,7 @@
 				7CC213B219ADBDC10067F75D /* Business.m in Sources */,
 				7CC213B619ADBDC10067F75D /* ManagerUser.m in Sources */,
 				7CC213C319ADBDC10067F75D /* ZDModeClient.m in Sources */,
+				18BF83E519C694B700933690 /* MyView.swift in Sources */,
 				7CC213C919ADBE3D0067F75D /* NSString+Tony.m in Sources */,
 				7C05ABEF19BA9D8E00584860 /* MBProgressHUD.m in Sources */,
 				7CC213BC19ADBDC10067F75D /* ZDWebService.m in Sources */,
@@ -489,8 +499,10 @@
 				7CC213B319ADBDC10067F75D /* BusinessList.m in Sources */,
 				7CC2136319ADBD080067F75D /* AppDelegate.swift in Sources */,
 				7CC213B819ADBDC10067F75D /* ProductDetail.m in Sources */,
+				18BF83E919C695FE00933690 /* ProductDetailViewController.swift in Sources */,
 				7C05AC0019BABBFE00584860 /* Product.swift in Sources */,
 				7C05ABF819BAA3E800584860 /* ProductsCollectionViewController.swift in Sources */,
+				18BF83E719C694DC00933690 /* MyButton.swift in Sources */,
 				7CC213C119ADBDC10067F75D /* ZDCustomer.m in Sources */,
 				7CC213C219ADBDC10067F75D /* ZDManagerUser.m in Sources */,
 				7CC213B519ADBDC10067F75D /* Customer.m in Sources */,

@@ -14,22 +14,22 @@ class ZDLoginViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var nameView: UIView! {
-        didSet {
-            self.nameView.layer.borderColor = UIColor(white: 229 / 255.0, alpha: 1).CGColor
-        }
-    }
-    @IBOutlet weak var passwordView: UIView! {
-        didSet {
-            self.passwordView.layer.borderColor = UIColor(white: 229 / 255.0, alpha: 1).CGColor
-        }
-    }
-    
-    @IBOutlet weak var loginButton: UIButton! {
-        didSet {
-            self.loginButton.layer.cornerRadius = 4.0
-        }
-    }
+//    @IBOutlet weak var nameView: UIView! {
+//        didSet {
+//            self.nameView.layer.borderColor = UIColor(white: 229 / 255.0, alpha: 1).CGColor
+//        }
+//    }
+//    @IBOutlet weak var passwordView: UIView! {
+//        didSet {
+//            self.passwordView.layer.borderColor = UIColor(white: 229 / 255.0, alpha: 1).CGColor
+//        }
+//    }
+//    
+//    @IBOutlet weak var loginButton: UIButton! {
+//        didSet {
+//            self.loginButton.layer.cornerRadius = 4.0
+//        }
+//    }
 
     var zdManagerUser: ZDManagerUser? {
         get {
